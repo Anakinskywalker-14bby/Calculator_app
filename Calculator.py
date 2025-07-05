@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import messagebox
 
 # initialze the root window
-root = tk.TK()
+root = tk.Tk()
 root.title("Calculator")
 root.geometry("400x600")
 
