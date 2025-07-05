@@ -25,8 +25,6 @@ The Simple Calculator App is designed to mimic a standard handheld calculator, p
 - **Error Handling:** Invalid inputs, such as division by zero (e.g., `100 / 0`), trigger a pop-up error message to inform the user of the issue.
 - **Event-Driven Design:** Clicking buttons triggers specific actions, such as appending digits to the input string, clearing the display, or evaluating the expression when "=" is pressed.
 
-The application is lightweight, leveraging Python's built-in Tkinter library to create a responsive and visually appealing interface suitable for beginners and intermediate users alike.
-
 ---
 
 ## Skills Demonstrated
@@ -41,8 +39,6 @@ Building this calculator app showcases a range of programming and software devel
 - **Git Version Control:** Managing the project with Git, including initializing a repository, committing changes, and pushing to a remote GitHub repository, demonstrating version control proficiency.
 - **Virtual Environment Management:** Setting up and using a virtual environment to isolate project dependencies, ensuring a clean and conflict-free development environment.
 - **UI/UX Design Principles:** Designing an intuitive interface with aligned text, consistent fonts, and a 3D visual effect (e.g., `relief="sunken"` for the display), prioritizing usability and aesthetics.
-
-These skills highlight the ability to combine fundamental programming concepts with practical application development, making this project a strong portfolio piece for beginner and intermediate Python developers.
 
 ---
 
@@ -91,5 +87,3 @@ The calculator app offers several opportunities for enhancement:
 - **History Feature:** Implement a feature to store and display previous calculations, enhancing functionality for frequent users.
 
 ---
-
-This project serves as a foundation for learning GUI development and Python programming, with ample room for creative extensions to suit various use cases.
