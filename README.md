@@ -1,6 +1,6 @@
 # Simple Calculator App in Python
 
-This project is a user-friendly calculator application built with Python and the Tkinter library. It provides a graphical user interface (GUI) for performing basic arithmetic operations, including addition, subtraction, multiplication, and division. The calculator features a clean display for user input and results, a grid of buttons for digits (0-9), operators (+, -, *, /), a clear button (C), and an equals button (=) for calculations.
+This project is a user-friendly calculator application built with Python and the Tkinter library. It provides a graphical user interface (GUI) for performing arithmetic operations, including addition, subtraction, multiplication, division, decimal calculations, squaring, square roots, and multiplying by π (pi). The calculator features a clean display for user input and results, a grid of buttons for digits (0-9), decimal point, operators (+, -, *, /), a clear button (C), a square button (x²), a pi button (π), a square root button (√), and an equals button (=) for calculations.
 
 This README highlights the application's functionality, the skills demonstrated through its development, and opportunities for further customization.
 
@@ -11,6 +11,7 @@ This README highlights the application's functionality, the skills demonstrated 
 - [Application Overview](#application-overview)
 - [Skills Demonstrated](#skills-demonstrated)
 - [Running the Application](#running-the-application)
+- [Features](#features)
 - [Customization and Extensions](#customization-and-extensions)
 
 ---
@@ -21,8 +22,12 @@ The Simple Calculator App is designed to mimic a standard handheld calculator, p
 
 - **Interactive GUI:** A window with a text entry field at the top displays user inputs and results. Below it, a grid of buttons allows users to input digits, operators, and control functions.
 - **Arithmetic Operations:** Supports addition (+), subtraction (-), multiplication (*), and division (/), enabling users to perform calculations like `7 + 5` or `100 / 4`.
+- **Decimal Calculations:** Includes a decimal point (.) button for floating-point arithmetic.
+- **Squaring:** The "x²" button squares the current value in the display.
+- **Square Root:** The "√" button computes the square root of the current value.
+- **Pi Multiplication:** The "π" button multiplies the current value by π (pi).
 - **Clear Functionality:** A "C" button resets the display to an empty state, allowing users to start a new calculation.
-- **Error Handling:** Invalid inputs, such as division by zero (e.g., `100 / 0`), trigger a pop-up error message to inform the user of the issue.
+- **Error Handling:** Invalid inputs, such as division by zero or invalid expressions, trigger a pop-up error message to inform the user of the issue.
 - **Event-Driven Design:** Clicking buttons triggers specific actions, such as appending digits to the input string, clearing the display, or evaluating the expression when "=" is pressed.
 
 ---
@@ -48,7 +53,7 @@ Building this calculator app showcases a range of programming and software devel
 
 - Python 3.x is installed.
 - Visual Studio Code (VS Code) is set up with the Python extension.
-- The project folder (e.g., `E:\Python Projects\Calculator`) contains `calculator_app.py` and a `.gitignore` file.
+- The project folder (e.g., `E:\Python Projects\Calculator`) contains `Calculator.py` and a `.gitignore` file.
 
 ### Activate the Virtual Environment
 
@@ -60,28 +65,45 @@ Open the VS Code terminal (`Ctrl + ~`) and run:
 
 ### Run the Application
 
-Open `calculator_app.py` in VS Code.  
+Open `Calculator.py` in VS Code.  
 Click the Run button or execute in the terminal:
 
 ```
-python calculator_app.py
+python Calculator.py
 ```
 
 ### Interact with the Calculator
 
 - Click number and operator buttons to build expressions (e.g., `7 + 5`).
+- Use the decimal point (.) for floating-point numbers.
+- Press `x²` to square the current value.
+- Press `π` to multiply the current value by pi.
+- Press `√` to calculate the square root of the current value.
 - Press `=` to compute and display the result.
 - Press `C` to clear the display.
-- Invalid operations (e.g., `100 / 0`) trigger an error pop-up.
+- Invalid operations (e.g., `100 / 0` or invalid input) trigger an error pop-up.
 
 ---
 
-## Customization and Extensions
+## Features
+
+- Addition, subtraction, multiplication, and division
+- Decimal point for floating-point calculations
+- Squaring numbers (`x²`)
+- Square root calculation (`√`)
+- Multiplication by pi (`π`)
+- Clear display (`C`)
+- Error handling for invalid input and division by zero
+- Responsive GUI with button grid and display
+
+---
+
+## Customization for future development
 
 The calculator app offers several opportunities for enhancement:
 
 - **Enhanced Visuals:** Adjust font sizes, colors, or button styles (e.g., `relief="raised"`, `bd=5`) to create a personalized look and feel.
-- **Additional Operations:** Expand the button grid to include advanced operations like exponentiation (`**`), modulo (`%`), or square roots, enabling more complex calculations.
+- **Additional Operations:** Expand the button grid to include advanced operations like exponentiation (`**`), modulo (`%`), or parentheses for complex expressions.
 - **Custom Error Messages:** Refine error handling to display specific messages (e.g., "Division by Zero" or "Invalid Expression") for different error types.
 - **Keyboard Input Support:** Add key bindings to allow users to input numbers and operators via the keyboard, improving accessibility.
 - **History Feature:** Implement a feature to store and display previous calculations, enhancing functionality for frequent users.
