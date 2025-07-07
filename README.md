@@ -2,8 +2,6 @@
 
 This project is a user-friendly calculator application built with Python and the Tkinter library. It provides a graphical user interface (GUI) for performing arithmetic operations, including addition, subtraction, multiplication, division, decimal calculations, squaring, square roots, and multiplying by π (pi). The calculator features a clean display for user input and results, a grid of buttons for digits (0-9), decimal point, operators (+, -, *, /), a clear button (C), a square button (x²), a pi button (π), a square root button (√), and an equals button (=) for calculations.
 
-This README highlights the application's functionality, the skills demonstrated through its development, and opportunities for further customization.
-
 ---
 
 ## Table of Contents
